@@ -1,0 +1,77 @@
+#welcome-section{
+  height: 100vh;
+  background-color: orange;
+}
+body{
+  display: block; 
+  text-align: center;
+  font-size: 1.4em;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  line-height: 2em;
+  background-color: black;
+}
+#navbar{
+  height: 10vh !important;
+  width: 100vw;
+  position: fixed !important;
+  margin: 0 0 0 0;
+  padding: 0 0 1% 0;
+  background-color: #1d1f2c;
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  line-height: 2rem;
+  margin-right: 4%;
+}
+.nav-link{
+  color: #cdd9e0;
+  font-size: larger;
+}
+a{
+  text-decoration: none;
+  margin: 0.5em;
+}
+a:hover{
+  color: coral; 
+}
+#welcome-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+#projects{
+  background-color: #f7ec00;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#connect{
+  background-color: #9ff700;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+footer{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+section{
+  border: 2px solid black;
+}
+h1{
+  font-size: 2.5em;
+  color: #3266a8;
+}
+h2{
+  color: #02a8ff;
+}
+
+@media (max-width: 600px){
+  body{
+    font-size: small;
+  }
+}
